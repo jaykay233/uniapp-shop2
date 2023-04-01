@@ -38,7 +38,7 @@
     },
     onLoad()
     {
-      ths.historyList = JSON.parse(uni.getStorageInfoSync('kw') || '[]')
+      this.historyList = JSON.parse(uni.getStorageSync('kw') || '[]')
     },
     methods: {
       input(e) {
