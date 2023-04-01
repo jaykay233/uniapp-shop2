@@ -53,7 +53,8 @@
         "appid" : "wx6322ba15fa7c0284",
         "setting" : {
             "urlCheck" : false,
-            "checkSitemap" : false
+            "checkSitemap" : false,
+            "ignoreDevUnusedFiles" : false
         },
         "usingComponents" : true
     }
