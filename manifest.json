@@ -56,6 +56,9 @@
             "checkSitemap" : false,
             "ignoreDevUnusedFiles" : false
         },
-        "usingComponents" : true
+        "usingComponents" : true,
+        "requiredPrivateInfos": [
+          "chooseAddress","getLocation", "chooseLocation"
+        ]
     }
 }
