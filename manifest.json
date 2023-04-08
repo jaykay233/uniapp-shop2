@@ -57,8 +57,7 @@
             "ignoreDevUnusedFiles" : false
         },
         "usingComponents" : true,
-        "requiredPrivateInfos": [
-          "chooseAddress","getLocation", "chooseLocation"
-        ]
+        "requiredPrivateInfos" : [ "chooseAddress", "getLocation", "chooseLocation" ],
+        "permission" : {}
     }
 }

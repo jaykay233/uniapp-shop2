@@ -65,7 +65,7 @@
         this.saveSearchHistory()
       },
       gotoDetail(item) {
-        console.log(item.goods_id)
+        // console.log(item.goods_id)
         uni.navigateTo({
           url: '/subpkg/goods_detail/goods_detail?goods_id=' + item.goods_id
         })
